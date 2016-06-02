@@ -1,0 +1,64 @@
+.activebutton {
+	color: red;
+}
+body {
+	position: relative;
+	text-align: center;
+	align-items: center;
+	background-color: lightyellow;
+	align-content: center;
+
+}
+
+#buttons {
+	position: relative;
+	top: 100px;
+	text-align: left;
+	background-color: grey;
+	float: left;
+}
+
+#colorspace {
+	position: relative;
+	width: 700px;
+	height: 700px;
+	margin: auto;
+	top: 10px;
+	background-color: lightgrey;
+}
+.colorblock {
+	float: left;
+	outline: 2px solid blue;
+
+}
+.black{
+	background-color: black;
+}
+.grey{
+	background-color: grey;
+}
+
+.random{
+	background-color: yellow;
+}
+
+.rgb{
+	background-color: red;
+}
+ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+}
+
+li{
+	float: left;
+}
+
+li button {
+	display: block;
+	color: white;
+	padding: 2px;
+	background-color: black;
+}
